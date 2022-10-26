@@ -1,18 +1,16 @@
 <script>
-import ObjetoView from "./views/ObjetoView.vue";
+import HeaderView from "./views/HeaderView.vue";
 export default {
-  components: { ObjetoView },
+  components: { HeaderView },
 };
 </script>
 
 <template>
-  <ObjetoView />
+  <HeaderView />
 
   <main>
-    <div class="container">
-      <img src="./assets/jamalzinholindo.jpg" alt="jamal murray" />
-      <img src="./assets/jamalzinholindo.jpg" alt="jamal murray" />
-      <img src="./assets/jamalzinholindo.jpg" alt="jamal murray" />
+    <div>
+      <img src="./assets/jamalzinholindo.jpg" alt="jamalmurray" />
     </div>
   </main>
 </template>
@@ -23,8 +21,9 @@ export default {
 }
 
 img {
-  width: 500px;
-  height: 500px;
+  width: 40%;
+  z-index: 2;
+  width: 300px;
   margin: 20px;
 }
 </style>

@@ -3,7 +3,7 @@ const axios = "axios";
 
 const options = {
   method: "GET",
-  url: "https://api-nba-v1.p.rapidapi.com/seasons",
+  url: "",
   headers: {
     "X-RapidAPI-Key": "SIGN-UP-FOR-KEY",
     "X-RapidAPI-Host": "api-nba-v1.p.rapidapi.com",
@@ -20,6 +20,7 @@ axios
   });
 </script>
 
-<template></template>
+<template>
+</template>
 
 <style></style>

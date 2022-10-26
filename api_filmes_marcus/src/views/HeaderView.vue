@@ -1,8 +1,10 @@
+<script>
+import { RouterLink } from "vue-router";
+</script>
 <template>
   <header>
     <i><h1>VE Videos</h1></i>
-    <i><h1>Séries</h1></i>
-    <i><h1>Filmes</h1></i>
+    <RouterLink to="/generos">Gêneros</RouterLink>
     <i><h1>Sobre nós</h1></i>
   </header>
 </template>

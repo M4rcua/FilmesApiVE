@@ -10,6 +10,29 @@ export default {
 
   <main>
     <div>
+      <h2>Destaques</h2>
+
+      <img src="./assets/jamalzinholindo.jpg" alt="jamalmurray" />
+      <img src="./assets/jamalzinholindo.jpg" alt="jamalmurray" />
+      <img src="./assets/jamalzinholindo.jpg" alt="jamalmurray" />
+      <img src="./assets/jamalzinholindo.jpg" alt="jamalmurray" />
+    </div>
+
+    <div>
+      <h2>Filmes</h2>
+
+      <img src="./assets/jamalzinholindo.jpg" alt="jamalmurray" />
+      <img src="./assets/jamalzinholindo.jpg" alt="jamalmurray" />
+      <img src="./assets/jamalzinholindo.jpg" alt="jamalmurray" />
+      <img src="./assets/jamalzinholindo.jpg" alt="jamalmurray" />
+    </div>
+
+    <div>
+      <h2>Séries</h2>
+
+      <img src="./assets/jamalzinholindo.jpg" alt="jamalmurray" />
+      <img src="./assets/jamalzinholindo.jpg" alt="jamalmurray" />
+      <img src="./assets/jamalzinholindo.jpg" alt="jamalmurray" />
       <img src="./assets/jamalzinholindo.jpg" alt="jamalmurray" />
     </div>
   </main>

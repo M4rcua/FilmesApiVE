@@ -4,7 +4,7 @@ import { RouterLink } from "vue-router";
 <template>
   <header>
     <i><h1>VE Videos</h1></i>
-    <RouterLink to="/generos">Gêneros</RouterLink>
+    <span><RouterLink to="/generos">Gêneros</RouterLink></span>
     <i><h1>Sobre nós</h1></i>
   </header>
 </template>
@@ -12,12 +12,28 @@ import { RouterLink } from "vue-router";
 <style>
 header {
   display: flex;
+  background-color: rgb(55, 55, 55);
+  border: 3px;
+  border-color: #e1e130;
+  border-radius: 25px;
+  border-style: solid;
 }
 
 h1 {
   font-family: "Open Sans", sans-serif;
-  color: rgb(95, 95, 93);
+  font-size: 50px;
+  color: white;
   padding: 40px;
   padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 35px;
+  color: white;
+  padding: 40px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 </style>

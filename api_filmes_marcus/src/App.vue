@@ -1,7 +1,8 @@
 <script>
 import HeaderView from "./views/HeaderView.vue";
+import GenerosView from "./views/GenerosView.vue";
 export default {
-  components: { HeaderView },
+  components: { HeaderView, GenerosView },
 };
 </script>
 
